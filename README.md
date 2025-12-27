@@ -1,4 +1,4 @@
-# week1-
+## week1-
 Python Basics
 -Variables& Data Types
 -Getting Input from Users
@@ -37,30 +37,30 @@ Python Basics
 -classes and objects
   just basics (some topics not completed)
 -Also done some problems in python language which are in cs101 course
-## week2 —
+## week2 — Data Understanding & Text Preprocessing
 
 ### Dataset Understanding
-- saw what columns are there like text and label  
-- each row is one news  
-- understood fake and real labels  
+- Checked what columns are present like text and label  
+- Understood that each row represents one news article  
+- Learned how labels indicate fake or real news  
 
-### Used Pandas for Dataset
-- read csv file  
-- head function  
-- checked shape and columns  
-- checked fake and real count  
-- checked missing values  
-- only basic pandas  
+### Using Pandas for Dataset
+- Loaded the dataset using read_csv()  
+- Viewed data using head()  
+- Checked dataset shape and column names  
+- Checked fake and real news count  
+- Checked missing values in the dataset  
+- Used only basic pandas required for EDA  
 
 ### Text Preprocessing
-- converted text to lowercase  
-- removed punctuation and special characters  
-- tokenization  
-- removed stopwords  
-- lemmatization  
+- Converted text to lowercase to maintain consistency  
+- Removed punctuation and special characters to reduce noise  
+- Tokenized text into individual words  
+- Removed stopwords that do not add meaning  
+- Applied lemmatization to convert words to base form  
 
 ### Libraries Used
-- pandas  
-- nltk  
-- re  
+- pandas – for loading and exploring the dataset  
+- nltk – for tokenization, stopword removal, and lemmatization  
+- re – for cleaning text using regular expressions
 
