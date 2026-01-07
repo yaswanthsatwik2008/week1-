@@ -63,4 +63,37 @@ Python Basics
 - pandas – for loading and exploring the dataset  
 - nltk – for tokenization, stopword removal, and lemmatization  
 - re – for cleaning text using regular expressions
+  ## week3 — Feature Extraction
+
+### Understanding Feature Extraction
+- Learned why machine learning models cannot work directly on raw text  
+- Understood that text needs to be converted into numerical form before training models  
+
+### Bag of Words (BoW)
+- Learned the concept of Bag of Words representation  
+- Understood how text is converted into word frequency vectors  
+- Learned how vocabulary is created from the dataset  
+
+### TF-IDF (Term Frequency – Inverse Document Frequency)
+- Learned how TF-IDF improves over Bag of Words  
+- Understood term frequency and inverse document frequency  
+- Learned how important words get higher weight and common words get lower weight  
+- Applied TF-IDF to convert cleaned text into numerical features  
+
+### Using Sklearn for Feature Extraction
+- Used TfidfVectorizer from sklearn  
+- Learned how text data is transformed into feature matrices  
+- Understood how these features are passed to machine learning models  
+
+### Mentor Code Notebook
+- Went through the week 3 code shared by the mentor  
+- Understood how feature extraction is applied after text preprocessing  
+- Learned how this step connects preprocessing with model training  
+
+### What I Learned in Week 3
+- How text is converted into numbers using feature extraction  
+- Difference between Bag of Words and TF-IDF  
+- Why TF-IDF is commonly used in text classification tasks  
+- How feature extraction is a key step before training ML models  
+
 
